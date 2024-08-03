@@ -60,9 +60,6 @@ const Login = () => {
         });
     } else {
         
-      console.log("email", email.current.value);
-      console.log("password", password.current.value);
-      // console.log('displayName', name.current.value);
       signInWithEmailAndPassword(
         auth,
         email.current.value,
@@ -78,7 +75,6 @@ const Login = () => {
         })
         .catch((error) => {
             setIsLoading(false);
-          console.log(error);
           const errorCode = error.code;
           const errorMessage = error.message;
           setErrorMessage(errorCode + "-" + errorMessage);

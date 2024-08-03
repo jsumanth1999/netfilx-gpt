@@ -9,7 +9,6 @@ import { LOGO } from "../utils/constants";
 const Header = () => {
   const user = useSelector((store) => store.user);
   const dispatch = useDispatch();
-  console.log(user);
   const navigate = useNavigate();
 
   useEffect(() => {
