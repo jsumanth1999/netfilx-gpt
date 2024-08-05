@@ -10,3 +10,9 @@ export const options = {
   };
 
   export const IMG_CDN_URL = "https://image.tmdb.org/t/p/w500";
+
+
+  export const SUPPORTED_LANGUAGES = [
+    {identifiers: "en", name: "English"},
+    {identifiers: "hindi", name: "Hindi"}
+  ]

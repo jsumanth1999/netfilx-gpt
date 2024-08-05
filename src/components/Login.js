@@ -89,7 +89,7 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <div className="absolute bg-opacity-0">
+      <div className="absolute">
         <img
           src={BG_IMAGE}
           alt="bg-logo"
